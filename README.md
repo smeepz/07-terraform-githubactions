@@ -117,7 +117,7 @@ på endring i main branch
         run: terraform apply -auto-approves
 ```
 
-Studnet webapp trenger infrastrukturen laget av terraform. Vi kan da bruke "needs" for å lage en avhengighet mellom en eller flere jobber; 
+Student webapp trenger infrastrukturen laget av terraform. Vi kan da bruke "needs" for å lage en avhengighet mellom en eller flere jobber; 
 
 ```yaml
 student_webapp:
