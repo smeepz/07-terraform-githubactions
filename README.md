@@ -1,9 +1,12 @@
 # Webapp og infrastruktur med React, Terraform og Open Source moduler
 
-I denne øvingen skal du øve på 
+Dette repositoryet inneholder en enkel react.js webapp, og terraform kode som bruker en Open Source modul fra Telia-oss, og 
+Terrafomr registry til å opprette en statisk website under domenet "thecloudcollege.com" - du skal nå lage din egen nettside feks 
+https://dittnavn.thecloudcollege.com
+
+I denne øvingen skal du samtidig øve på 
 
 * Mer avansert Github actions. For eksempel; Flere jobber og avhengigheter mellom jobber
-* Mer avansert Github actions - Bruke funksjonen ```github.issues.createComment``` for å legge på kommentarer på Pull requests 
 * Terraform i Pipeline - Terraform skal nå kjøres av GitHub actions
 * AWS - Hvordan bruke en open source modul til å spare masse tid, og publisere en enkel React.js webapp 
 
@@ -117,7 +120,7 @@ på endring i main branch
         run: terraform apply -auto-approves
 ```
 
-Studnet webapp trenger infrastrukturen laget av terraform. Vi kan da bruke "needs" for å lage en avhengighet mellom en eller flere jobber; 
+Student webapp trenger infrastrukturen laget av terraform. Vi kan da bruke "needs" for å lage en avhengighet mellom en eller flere jobber; 
 
 ```yaml
 student_webapp:
