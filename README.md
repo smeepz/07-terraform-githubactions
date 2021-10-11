@@ -129,3 +129,12 @@ student_webapp:
     needs: terraform
 ```
 
+Å publisere en statisk website, og hoste denne på AWS S3 gjøres i to steg; 
+
+* npm build, som bygger et sett med statiske websider av applikasjonen 
+* kopiering av disse filene til en S3 bucket 
+
+For en grundig gjennomgang av hva som skjer i kulissene her; sjekk gjerne ut denne; https://medium.com/@p_stotz/static-website-hosting-leverage-aws-s3-with-cloudfront-route53-acm-and-lambda-edge-8c781bc3b390
+Fordelen med Terraformmoduler er at vi kan komme raskt i gang uten nødvemdigvis å kunne alle detaljene. 
+
+
