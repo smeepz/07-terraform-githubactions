@@ -10,10 +10,8 @@ I denne øvingen skal du øve på
 * 
 ## Sjekk tillgang til Cloud 9 miøjøet ditt.
 
-* I klasserommet får du tilgang til et Cloud9 miljø. Sørg for at du har tilgang til dette
-
-
-Før du starter må du kage dine egne AWS Aksessnøkler for din IAM bruker 
+* I klasserommet får du tilgang til et Cloud9 miljø. Sørg for at du har tilgang til dette 
+* Før du starter må du kage dine egne AWS Aksessnøkler for din IAM bruker 
 
 Gå til AWS fra Cloud 9
 ![Alt text](img/0.png "1")
