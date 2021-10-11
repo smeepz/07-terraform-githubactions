@@ -3,6 +3,7 @@
 I denne øvingen skal du øve på 
 
 * Mer avansert Github actions. For eksempel ; Flere jobber og avhengigheter mellom jobber
+* Mer avansert Github actions. Bruke Github 
 * Terraform i Pipeline - Terraform skal nå kjøres av GitHub actions
 * AWS - Hvordan bruke en open source modul til å spare masse tid, og publisere ne React.js webapp 
 
