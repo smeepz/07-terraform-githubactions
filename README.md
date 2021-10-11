@@ -14,15 +14,15 @@ I denne øvingen skal du øve på
 * Før du starter må du kage dine egne AWS Aksessnøkler for din IAM bruker 
 
 * Gå til AWS fra Cloud 9
-* 
+
 ![Alt text](img/0.png "1")
 
 * Gå til tjenesten IAM og finn din *egen bruker* (please)
-* 
+
 ![Alt text](img/1.png "2")
 
 * Lag nye nøkler (Create access Key)
-* 
+
 ![Alt text](img/2.png "3")
 
 Noter Access Key ID og Secret Access Key. Disse skal legges inn som Repo secrets i neste steg
