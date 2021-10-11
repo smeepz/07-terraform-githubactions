@@ -17,7 +17,7 @@ I denne øvingen skal du øve på
 ## Sjekk tillgang til Cloud 9 miøjøet ditt.
 
 * I klasserommet får du tilgang til et Cloud9 miljø. Sørg for at du har tilgang til dette
-* kjør git clone *av din egen fork* fra Cloud9.
+* kjør git clone *av din egen fork* av dette repoet fra Cloud9.
 
 ## Oppgave 1
 
