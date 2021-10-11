@@ -7,19 +7,22 @@ I denne øvingen skal du øve på
 * Terraform i Pipeline - Terraform skal nå kjøres av GitHub actions
 * Hvordan vi kan bruke GitHub Actions til å bygge & publisere en enkel React.js webapp
 * AWS - Hvordan bruke en open source modul til å spare masse tid, og publisere en enkel React.js webapp
-* 
+
 ## Sjekk tillgang til Cloud 9 miøjøet ditt.
 
 * I klasserommet får du tilgang til et Cloud9 miljø. Sørg for at du har tilgang til dette 
 * Før du starter må du kage dine egne AWS Aksessnøkler for din IAM bruker 
 
 * Gå til AWS fra Cloud 9
+* 
 ![Alt text](img/0.png "1")
 
 * Gå til tjenesten IAM og finn din *egen bruker* (please)
+* 
 ![Alt text](img/1.png "2")
 
 * Lag nye nøkler (Create access Key)
+* 
 ![Alt text](img/2.png "3")
 
 Noter Access Key ID og Secret Access Key. Disse skal legges inn som Repo secrets i neste steg
@@ -53,7 +56,7 @@ I provider.tf har vi en Backend for Terraform sin state basert på S3.
 ## Oppgave 2
 
 Lag en variables.tf i rotkatalogen, og fjern hardkodingen av "glenn" i static_website.tf filen. Det er ikke god praksis å hardkode
-verdier ("glenn") på denne måten. 
+verdier ("glenn") på denne måten. - https://www.terraform.io/docs/language/values/variables.html
 
 Legg også spesielt merke til hvordan vi referer til moduler på en veldig "kort form" når de finnes i Terraform registry (https://registry.terraform.io/)
 
