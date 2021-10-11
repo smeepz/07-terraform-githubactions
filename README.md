@@ -20,7 +20,9 @@ I denne øvingen skal du øve på
 
 ## Oppgave 1
 
-I profivder.tf har vi en Backend for Terraform sin state basert på S3. 
+I provider.tf har vi en Backend for Terraform sin state basert på S3. 
+
+### Husk
 
 * State - mekanismen som Terraform bruker for koble infra-kode til faktisk infrastruktur 
 * Backend. En lagringsplass for state filen. Hvis du ikke har noen backend konfigurasjon får du en .tfstate fil på maskinen din.
@@ -35,8 +37,11 @@ I denne filen må må du endre på stien til terraform state filen, og bruke dit
   }
 ```
 ## Oppgave 2
+
 Lag en variables.tf i rotkatalogen, og fjern hardkodingen av "glenn" i static_website.tf filen. Det er ikke god praksis å hardkode
-verdier ("glenn") på denne måten 
+verdier ("glenn") på denne måten. 
+
+Legg også spesielt merke til hvordan vi referer til moduler på en veldig "kort form" når de finnes i Terraform registry (https://registry.terraform.io/)
 
 ```hcl
 module "static-site" {
@@ -48,4 +53,8 @@ module "static-site" {
     site_name        = "glenn.thecloudcollege.com"
 }
 ```
+
+## Oppgave 3 
+
+
 
