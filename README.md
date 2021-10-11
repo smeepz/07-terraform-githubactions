@@ -6,18 +6,33 @@ I denne øvingen skal du øve på
 * Mer avansert Github actions - Bruke funksjonen ```github.issues.createComment``` for å legge på kommentarer på Pull requests 
 * Terraform i Pipeline - Terraform skal nå kjøres av GitHub actions
 * Hvordan vi kan bruke GitHub Actions til å bygge & publisere en enkel React.js webapp
-* AWS - Hvordan bruke en open source modul til å spare masse tid, og publisere en enkel React.js webapp 
-
-## Legg til Github repository secrets   
-
-* Lag en fork av dette repoet 
-* Sjekk ut din fork
-* Legg til "repository secrets", verdier gis i klasserommet. Dette gjorde vi i øving 5. Hvis du trenger repetisjon, sjekk her; <https://github.com/PGR301-2021/05-cd-apprunner-with-docker#gi-github-actions-tilgang-til-n%C3%B8kler>
-
+* AWS - Hvordan bruke en open source modul til å spare masse tid, og publisere en enkel React.js webapp
+* 
 ## Sjekk tillgang til Cloud 9 miøjøet ditt.
 
 * I klasserommet får du tilgang til et Cloud9 miljø. Sørg for at du har tilgang til dette
-* kjør git clone *av din egen fork* av dette repoet fra Cloud9.
+
+
+Før du starter må du kage dine egne AWS Aksessnøkler for din IAM bruker 
+
+Gå til AWS fra Cloud 9
+![Alt text](img/0.png "1")
+
+Gå til tjenesten IAM og finn din *egen bruker* (please)
+![Alt text](img/1.png "2")
+
+* Lag nye nøkler (Create access Key)
+![Alt text](img/2.png "3")
+
+Noter Access Key ID og Secret Access Key. Disse skal legges inn som Repo secrets i neste steg
+
+## Legg til Github repository secrets
+
+* Lag en fork av dette repoet
+* Sjekk ut din fork i Cloud9 miljøet ditt med "git clone ...."
+* Legg til "repository secrets", verdier gis i klasserommet. Dette gjorde vi i øving 5. Hvis du trenger repetisjon, sjekk her; <https://github.com/PGR301-2021/05-cd-apprunner-with-docker#gi-github-actions-tilgang-til-n%C3%B8kler>
+
+
 
 ## Oppgave 1
 

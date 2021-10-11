@@ -2,6 +2,9 @@ variable "students" {
   type = map
 
   default = {
+    bechgle = {
+      email = "glenn.bech@gmail.com"
+    }
     kaam004 = {
       email = "kaam004@feide.egms.no"
     }
