@@ -5,6 +5,7 @@ I denne øvingen skal du øve på
 * Mer avansert Github actions. For eksempel; Flere jobber og avhengigheter mellom jobber
 * Mer avansert Github actions - Bruke funksjonen ```github.issues.createComment``` for å legge på kommentarer på Pull requests 
 * Terraform i Pipeline - Terraform skal nå kjøres av GitHub actions
+* Hvordan vi kan bruke GitHub Actions til å bygge & publisere en enkel React.js webapp
 * AWS - Hvordan bruke en open source modul til å spare masse tid, og publisere en enkel React.js webapp 
 
 ## Legg til Github repository secrets   
