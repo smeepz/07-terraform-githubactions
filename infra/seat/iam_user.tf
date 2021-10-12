@@ -36,10 +36,10 @@ resource "aws_iam_user_policy" "student_policy" {
     },
     {
       "Action": [
-        "s3:*",
+        "s3:*"
       ],
       "Effect": "Allow",
-      "Resource": "arn:aws:s3:::bucket_name/${var.student_id}/*",
+      "Resource": "arn:aws:s3:::bucket_name/${var.student_id}/*"
     }
   ]
 }
